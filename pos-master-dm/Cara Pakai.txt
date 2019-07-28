@@ -1,0 +1,45 @@
+Cara pakai aplikasi laravel yang meggunakan API dari aplikasi node JS
+1.	Install composer, install php command line, install XAMPP Control Panel
+2.	Buat database dengan nama crud_db dan dmx
+3.	Import crud_db.sql ke database crud_db dan dmx.sql ke database dmx
+4.	Buka command line atau gitbash dan arahkan ke folder pos-master-dm dan jalankan
+
+composer install
+
+lalu,
+
+composer update
+
+lalu,
+
+composer dump-autoload
+
+lalu,
+
+php artisan config:cache
+
+lalu,
+
+php artisan key:generate
+
+lalu,
+
+php artisan serve –port=8222
+
+lalu, buka browser dan jalankan http://localhost:8222
+
+
+Untuk node js :
+
+Install npm & npm command line, install node js & node js command line
+Arahkan ke folder node_js_api dan jalankan di command line atau gitbash :
+
+
+export PORT=8081; npm start
+
+
+
+Untuk login :
+
+Email : admin@gmail.com
+Password : 123456
