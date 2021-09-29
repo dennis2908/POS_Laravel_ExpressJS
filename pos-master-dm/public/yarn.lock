@@ -995,9 +995,15 @@ datatables.net-bs@^1.10.15:
     datatables.net "1.10.16"
     jquery ">=1.7"
 
-datatables.net@1.10.16, datatables.net@^1.10.15:
+datatables.net@1.10.16:
   version "1.10.16"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.16.tgz#4b052d1082824261b68eed9d22741b711d3d2469"
+  dependencies:
+    jquery ">=1.7"
+
+datatables.net@^1.11.3:
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.11.3.tgz#80e691036efcd62467558ee64c07dd566cb761b4"
   dependencies:
     jquery ">=1.7"
 
@@ -2997,7 +3003,11 @@ module-deps@^4.0.8:
     through2 "^2.0.0"
     xtend "^4.0.0"
 
-moment@^2.18.1, moment@^2.9.0:
+moment@^2.21.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+
+moment@^2.9.0:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
